@@ -145,6 +145,7 @@ function App() {
   return (
     <div>
       <h1>Movie App</h1>
+      <p>this is movie app</p>
       <SearchBar onSearch={handleSearch} />
       <div className="sort-options">
         <label>Sort by: </label>
